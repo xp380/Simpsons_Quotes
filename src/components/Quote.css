@@ -1,0 +1,37 @@
+.Quote{
+    margin: 25px;
+    padding: 25px;
+    min-width: 10vh;
+  }
+  
+  .Quote-figcaption{
+    padding: 15px;
+  }
+  
+  .Quote-figcaption > cite{
+    padding: 15px;
+  }
+  
+  .GenerateQuote{
+    margin: 30px;
+  }
+  
+  .GenerateQuote > button{
+    border: solid 1px lightgreen;
+    border-radius: 2px;
+    padding: 10px;
+    color:black;
+    background: lightgreen;
+  }
+  
+  .DisplayQuote{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .DisplayQuote > .imgQuote{
+    max-width: 250px;
+    max-height: 360px;
+  }
