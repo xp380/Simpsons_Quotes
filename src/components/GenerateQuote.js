@@ -1,6 +1,6 @@
 import  React  from  'react';
 
-import './Quotes.css'
+import './Quote.css'
 
 const  GenerateQuote = ({ selectQuote }) => {
   return (
